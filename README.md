@@ -11,6 +11,12 @@ Type a fighter's name, and it returns:
 AND
 
 
+
+
+
+
+
+
 Data Integrity Detection: 
 - Uses validation logic via database triggers to detect invalid entries.
 
