@@ -36,8 +36,9 @@ Output:
 - Created a Trigger that catches invalid entries and sends it to an audit log (Seen from `04_Audit_Log.sql`)
 
 ## How to use it
+EXEC sp_GetFighterProfile 'FirstName LastName';
 
-Query for a specifc fighter: 
+## Example
 
 EXEC sp_GetFighterProfile 'Islam Makhachev';
 
