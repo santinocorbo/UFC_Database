@@ -37,7 +37,7 @@ Output:
 
 ##How to use it
 
-Query a for a specifc fighter:
+Query a for a specifc fighter: 
 
 EXEC sp_GetFighterProfile 'Islam Makhachev';
 
