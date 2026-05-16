@@ -7,7 +7,9 @@ Type a fighter's name, and it returns:
 - Career Stats (TKO/KO wins, SUB wins, win streak, finish rate, etc.)
 - Fight history (every fight they've had in the UFC)
 
+
 AND
+
 
 Data Integrity Detection: 
 - Uses validation logic via database triggers to detect invalid entries.
