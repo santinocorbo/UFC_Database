@@ -20,7 +20,7 @@ AND
 Data Integrity Detection: 
 - Uses validation logic via database triggers to detect invalid entries.
 
-For example, if an invalid weight class is detected, this system will catch that error and send it into an 'Audit Log' where the correct classification will be shown.
+For example, if an invalid weight class is detected, this system will catch that error and send it into `audit_log` where the correct classification will be shown.
 
 Output:
 
