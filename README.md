@@ -33,12 +33,12 @@ Output:
 - Normalized the data into a 3-table relational Star Schema: `dim_fighters`, `fact_fights`, and `fighter_stats` (Seen from `01_CreateTables.sql`) 
 - Created an Aggregated View for performance analysis (Seen from `02_View.sql`)
 - Created a Stored Procedure that returns a fighter's profile (Seen from `03_Stored_Procedure.sql`)
-- Created a Trigger that catches invalid entries and sends it to an audit log (Seen from `04_Audit_Log.sql`)
+- Created a Trigger that catches invalid entries and sends them to an audit log (Seen from `04_Audit_Log.sql`)
 
-## How to use it
+## How to use it:
 EXEC sp_GetFighterProfile 'FirstName LastName';
 
-## Example
+## Example:
 
 EXEC sp_GetFighterProfile 'Islam Makhachev';
 
