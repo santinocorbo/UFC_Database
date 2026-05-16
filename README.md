@@ -35,7 +35,9 @@ Output:
 - Created a Stored Procedure that returns a fighter's profile (Seen from `03_Stored_Procedure.sql`)
 - Created a Trigger that catches invalid entries and sends it to an audit log (Seen from `04_Audit_Log.sql`)
 
-##How to use it:
+##How to use it
+
+Query a for a specifc fighter:
 
 EXEC sp_GetFighterProfile 'Islam Makhachev';
 
