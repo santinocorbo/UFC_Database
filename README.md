@@ -28,7 +28,7 @@ Output:
 
 
 
-## How I did it (simplified):
+## How I did it (Simplified):
 - Took a UFC dataset with 8000+ rows and 100+ columns (Found on Kaggle.com)
 - Normalized the data into a 3-table relational Star Schema: `dim_fighters`, `fact_fights`, and `fighter_stats` (Seen from `01_CreateTables.sql`) 
 - Created an Aggregated View for performance analysis (Seen from `02_View.sql`)
