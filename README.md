@@ -1,7 +1,7 @@
 # UFC Database Mini Project:
 
-
 //What it does:
+
 Type a figthers name and it returns: 
 - Bio (height, stance, reach, etc.)
 - Career Stats (TKO/KO wins, SUB wins, win streak,finish rate etc.)
