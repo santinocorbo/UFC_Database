@@ -14,7 +14,7 @@ BEGIN
     SELECT * FROM v_fighter_performance_matrix
     WHERE fighter_name = @p_fighter_name;
 
-    -- RESULT SET 3: Full Fight History
+    -- RESULT SET 3: Fighter History
     SELECT 
         date,
         CASE 
