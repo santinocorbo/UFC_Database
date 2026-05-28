@@ -1,4 +1,4 @@
-# UFC Database Mini Project
+# UFC Database Project
 
 ## What it does:
 
